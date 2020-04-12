@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8efc705edf69b4b97a4059a74352030c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -830,7 +830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553629235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 135, y: 582, z: 0}
+  m_LocalPosition: {x: 100, y: 582, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1911803990}
@@ -868,14 +868,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 40
-  mHeight: 37
+  mWidth: 60
+  mHeight: 55
   mDepth: 15
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.081081
+  aspectRatio: 1.0909091
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -1871,7 +1871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292098397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 243, y: -450, z: 0}
+  m_LocalPosition: {x: 243, y: -410, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1747872439}
@@ -2071,7 +2071,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518151598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 243, y: -525, z: 0}
+  m_LocalPosition: {x: 243, y: -500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2021511419}
@@ -2956,7 +2956,7 @@ MonoBehaviour:
   Width: 3
   shuffleSpeed: 50
   moveSpeed: 20
-  PuzzleScale: {x: 1, y: 1, z: 1}
+  PuzzleScale: {x: 0.5, y: 0.5, z: 0.5}
   PuzzlePosition: {x: 0, y: 0, z: 0}
   SeperationBetweenTiles: 0.3
   Tile: {fileID: 164140, guid: b2998fb091305694ea5656c50beebce0, type: 3}
@@ -3222,7 +3222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815994915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: -4, z: 0}
+  m_LocalPosition: {x: 62, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1857591895}
@@ -3259,24 +3259,24 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
   mPivot: 4
-  mWidth: 50
-  mHeight: 40
+  mWidth: 60
+  mHeight: 80
   mDepth: 15
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.25
+  aspectRatio: 0.75
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 26c2a3163c44b4e0391cf27ebc28911d, type: 3}
   mFont: {fileID: 0}
   mText: 123
-  mFontSize: 35
+  mFontSize: 45
   mFontStyle: 1
   mAlignment: 1
   mEncoding: 1
   mMaxLineCount: 0
-  mEffectStyle: 0
+  mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
@@ -3323,7 +3323,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857591894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 260, y: 582, z: 0}
+  m_LocalPosition: {x: 245, y: 582, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1815994916}
@@ -3361,14 +3361,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 40
-  mHeight: 37
+  mWidth: 60
+  mHeight: 55
   mDepth: 15
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.081081
+  aspectRatio: 1.0909091
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -3599,7 +3599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911803989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: -4, z: 0}
+  m_LocalPosition: {x: 62, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 553629236}
@@ -3636,24 +3636,24 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
   mPivot: 4
-  mWidth: 50
-  mHeight: 40
+  mWidth: 60
+  mHeight: 80
   mDepth: 15
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.25
+  aspectRatio: 0.75
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 26c2a3163c44b4e0391cf27ebc28911d, type: 3}
   mFont: {fileID: 0}
   mText: 123
-  mFontSize: 35
+  mFontSize: 45
   mFontStyle: 1
   mAlignment: 1
   mEncoding: 1
   mMaxLineCount: 0
-  mEffectStyle: 0
+  mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
@@ -3956,7 +3956,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021511418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: -4, z: 0}
+  m_LocalPosition: {x: 25, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1518151599}
@@ -3993,24 +3993,24 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
-  mWidth: 30
-  mHeight: 30
+  mWidth: 40
+  mHeight: 44
   mDepth: 4
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 0.90909094
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 26c2a3163c44b4e0391cf27ebc28911d, type: 3}
   mFont: {fileID: 0}
   mText: 1
-  mFontSize: 20
+  mFontSize: 31
   mFontStyle: 1
   mAlignment: 0
   mEncoding: 1
   mMaxLineCount: 0
-  mEffectStyle: 0
+  mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
@@ -4166,7 +4166,7 @@ Camera:
   m_GameObject: {fileID: 2101341413}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 1, g: 1, b: 0.98039216, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -4184,7 +4184,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

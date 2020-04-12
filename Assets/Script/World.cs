@@ -479,6 +479,27 @@ public class World : MonoBehaviour {
         Debug.Log("Purchase of product" + product.definition.id + " fail due to " + reason);
     }
 
+    public int UpdateScore(Param_Game_Result p) // 매초 스코어를 업데이트 한다.
+    {
+        // 스코어 설정되어있지 않으면 초기화
+        p.interestScore = (int) Mathf.Pow(2.0f, p.puzzleCount);
+
+        if (p.useTime > p.avgSolveTime)
+        {
+            // 스코어 감점
+            int delta = (int)(p.lastScore * 0.01f);
+            if (delta == 0) delta = 1;
+            p.lastScore -= delta;
+
+            int minimumScore = (int)(p.interestScore * 0.05);
+
+            p.lastScore = p.lastScore < minimumScore ? minimumScore : p.lastScore; // 최소점수 적용 
+
+            return p.lastScore;
+        }
+        else return p.interestScore;
+    }
+
     public int GameScoreResult(Param_Game_Result p)
     {
         // 게임 결과를 zone에서 전달받아 현재 테마, 스테이지 정보를 반영하여 결과 스코어를 계산하여 결과를 전달한다.
@@ -487,9 +508,11 @@ public class World : MonoBehaviour {
          * 1초 당겨질 시 +2
          */
         int deltaSec = (int)(p.avgSolveTime - p.useTime);   //변동 점수
-        int interestScore = p.puzzleCount * 10;             //기준 점수
-        int minimumScore = p.puzzleCount;                   //기본 점수
-        int score = interestScore - (deltaSec * 2);
+        int interestScore = (int) Mathf.Pow(2.0f, p.puzzleCount);                   //기준 점수
+        int minimumScore = (int) (interestScore * 0.5f);                            //기본 점수
+        int factor = (int) Mathf.Pow(0.99f, deltaSec);                               //interestScore - (deltaSec * 10);
+        int score = factor * interestScore;
+        Debug.Log("deltaSec : " + deltaSec + "/ interestScore:" + interestScore + "/ factor: " + factor);
         return score > minimumScore ? score: minimumScore;
     }
 

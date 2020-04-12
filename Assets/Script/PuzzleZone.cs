@@ -188,6 +188,13 @@ public class PuzzleZone : MonoBehaviour {
             if(m_gameState == EGameState.eOnGame)
             {
                 m_useTime += 1.0f;
+                Param_Game_Result result = new Param_Game_Result();
+                result.puzzleCount = world.GetWidth() * world.GetHeight();
+                result.useTime = m_useTime;
+                result.moveCount = m_moveCount;
+                result.avgSolveTime = m_avgSolveTime;
+                result.lastScore = m_resultScore;
+                m_resultScore = world.UpdateScore(result);
             }
             yield return new WaitForSeconds(1);
         }
@@ -261,12 +268,6 @@ public class PuzzleZone : MonoBehaviour {
     public void ProcessGameResult()
     {
         //게임 결과를 world에 반영한다.
-        Param_Game_Result result = new Param_Game_Result();
-        result.puzzleCount = world.GetWidth() * world.GetHeight();
-        result.useTime = m_useTime;
-        result.moveCount = m_moveCount;
-        result.avgSolveTime = m_avgSolveTime;
-        m_resultScore = world.GameScoreResult(result);
         UpdatePlayerData();
         
         GenConfetti();

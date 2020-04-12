@@ -15,8 +15,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 42f1bc567c5704a61bf309f06822fc4c, type: 2}
   mSprites:
   - name: back arrow
-    x: 306
-    y: 190
+    x: 530
+    y: 40
     width: 128
     height: 64
     borderLeft: 0
@@ -28,8 +28,8 @@ MonoBehaviour:
     paddingTop: 32
     paddingBottom: 32
   - name: badge
-    x: 258
-    y: 255
+    x: 408
+    y: 112
     width: 104
     height: 128
     borderLeft: 0
@@ -41,8 +41,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: basic-color
-    x: 129
-    y: 144
+    x: 520
+    y: 112
     width: 77
     height: 128
     borderLeft: 0
@@ -54,8 +54,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: buy
-    x: 0
-    y: 11
+    x: 272
+    y: 126
     width: 128
     height: 114
     borderLeft: 0
@@ -67,8 +67,8 @@ MonoBehaviour:
     paddingTop: 7
     paddingBottom: 7
   - name: colored_star
-    x: 432
-    y: 256
+    x: 605
+    y: 159
     width: 64
     height: 62
     borderLeft: 0
@@ -79,9 +79,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 1
     paddingBottom: 1
+  - name: dessert
+    x: 0
+    y: 256
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: empty_star
-    x: 435
-    y: 193
+    x: 605
+    y: 229
     width: 64
     height: 62
     borderLeft: 0
@@ -93,8 +106,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: home
-    x: 258
-    y: 384
+    x: 272
+    y: 248
     width: 128
     height: 128
     borderLeft: 0
@@ -106,8 +119,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: icon-2
-    x: 129
-    y: 45
+    x: 0
+    y: 14
     width: 98
     height: 98
     borderLeft: 0
@@ -119,7 +132,7 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: lock
-    x: 0
+    x: 400
     y: 384
     width: 128
     height: 128
@@ -132,8 +145,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: menu_icon
-    x: 228
-    y: 73
+    x: 408
+    y: 22
     width: 114
     height: 82
     borderLeft: 0
@@ -145,8 +158,8 @@ MonoBehaviour:
     paddingTop: 23
     paddingBottom: 23
   - name: no_ad
-    x: 207
-    y: 156
+    x: 106
+    y: 14
     width: 98
     height: 98
     borderLeft: 0
@@ -158,8 +171,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: puzzle_1
-    x: 0
-    y: 126
+    x: 136
+    y: 120
     width: 128
     height: 128
     borderLeft: 0
@@ -172,7 +185,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: puzzle_2
     x: 0
-    y: 255
+    y: 120
     width: 128
     height: 128
     borderLeft: 0
@@ -184,8 +197,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: rank
-    x: 129
-    y: 273
+    x: 272
+    y: 8
     width: 128
     height: 110
     borderLeft: 0
@@ -197,8 +210,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 8
   - name: refund
-    x: 432
-    y: 319
+    x: 536
+    y: 448
     width: 64
     height: 64
     borderLeft: 0
@@ -210,8 +223,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: triangle_icon
-    x: 363
-    y: 306
+    x: 530
+    y: 299
     width: 68
     height: 77
     borderLeft: 0
@@ -223,7 +236,7 @@ MonoBehaviour:
     paddingTop: 24
     paddingBottom: 27
   - name: trophy
-    x: 129
+    x: 264
     y: 384
     width: 128
     height: 128
@@ -236,8 +249,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: video
-    x: 387
-    y: 384
+    x: 408
+    y: 248
     width: 114
     height: 128
     borderLeft: 0
