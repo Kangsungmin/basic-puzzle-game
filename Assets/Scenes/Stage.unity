@@ -2732,7 +2732,7 @@ MonoBehaviour:
   pixelSnap: 0
   onClick:
   - mTarget: {fileID: 1017127908}
-    mMethodName: OnBackClick
+    mMethodName: OnClickBack
     mParameters: []
     oneShot: 0
 --- !u!114 &1793409729

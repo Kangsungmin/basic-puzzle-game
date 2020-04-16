@@ -115,6 +115,9 @@ public class UIRoot : MonoBehaviour
 	/// <summary>
 	/// Active scaling type, based on platform.
 	/// </summary>
+	///
+
+	public bool isBaldIphone = false;
 
 	public Scaling activeScaling
 	{
@@ -166,9 +169,19 @@ public class UIRoot : MonoBehaviour
 			}
 			else
 			{
+				isBaldIphone = false;
 				Constraint cons = constraint;
 				if (cons == Constraint.FitHeight)
+                {
+					Vector2 screen2 = NGUITools.screenSize;
+
+					float aspect2 = screen2.x / screen2.y;
+					//Debug.Log("Screen aspect : " + aspect2);
+                    if(aspect2 < 0.5f) isBaldIphone = true;
+
 					return manualHeight;
+				}
+					
 
 				Vector2 screen = NGUITools.screenSize;
 				float aspect = screen.x / screen.y;
@@ -272,6 +285,7 @@ public class UIRoot : MonoBehaviour
 
 	public void UpdateScale (bool updateAnchors = true)
 	{
+
 		if (mTrans != null)
 		{
 			float calcActiveHeight = activeHeight;
@@ -289,6 +303,13 @@ public class UIRoot : MonoBehaviour
 					mTrans.localScale = new Vector3(size, size, size);
 					if (updateAnchors) BroadcastMessage("UpdateAnchors", SendMessageOptions.DontRequireReceiver);
 				}
+			}
+
+			if (isBaldIphone == true)
+			{
+				float tSize = 0.00135f;
+				mTrans.localScale = new Vector3(tSize, tSize, tSize);
+				Debug.Log("This is bald iphone rescale screen.");
 			}
 		}
 	}

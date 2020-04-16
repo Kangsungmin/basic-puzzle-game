@@ -115,6 +115,13 @@ public class PuzzleZone : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+#if UNITY_ANDROID
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            OnClickBack();
+        }
+#endif
         switch (m_gameState)
         {
             case EGameState.eGameOver:
@@ -208,7 +215,7 @@ public class PuzzleZone : MonoBehaviour {
 
     public void OnClickBack()
     {
-        world.StopBackgroundMusic();
+        //world.StopBackgroundMusic();
         SceneManager.LoadScene("Stage");
     }
 

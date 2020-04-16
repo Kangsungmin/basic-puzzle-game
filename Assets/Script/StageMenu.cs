@@ -73,6 +73,17 @@ public class StageMenu : MonoBehaviour {
         }
     }
 
+    private void Update()
+    {
+#if UNITY_ANDROID
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            OnClickBack();
+        }
+#endif
+    }
+
     public void SetFocusedMenuItem(SlideMenuItem item)
     {
         if (m_focusedMenuItem != item)
@@ -119,7 +130,7 @@ public class StageMenu : MonoBehaviour {
         }
     }
 
-    public void OnBackClick()
+    public void OnClickBack()
     {
         SceneManager.LoadScene("Theme");
     }

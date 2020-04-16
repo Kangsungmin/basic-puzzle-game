@@ -61,6 +61,17 @@ public class ThemeMenu : MonoBehaviour {
         adManager.InitRewardButton();
     }
 
+    void Update()
+    {
+# if UNITY_ANDROID
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            
+        }
+#endif
+    }
+
     public void OnMenuClick(ThemeParam themeParam)
     {
         if (World.GetUserSingleTone().m_ownTheme.Contains(themeParam.m_name) == false)

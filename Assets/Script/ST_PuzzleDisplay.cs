@@ -18,7 +18,8 @@ public class ST_PuzzleDisplay : MonoBehaviour
     public float shuffleSpeed = 0.1f;
     public float moveSpeed = 10.0f;
 
-    // additional scaling value.
+	// additional scaling value.
+	public float puzleScaleFactor = 0.5f;
     public Vector3 PuzzleScale = new Vector3(1.0f, 1.0f, 1.0f);
 
     // additional positioning offset.
@@ -77,7 +78,13 @@ public class ST_PuzzleDisplay : MonoBehaviour
 		// World에서 난이도 인자를 적용한다.
 		Width = world.GetWidth();
         Height = world.GetHeight();
-        ShuffleComplexity = world.GetShuffleComplexity();
+		Debug.Log("w,h : " + Screen.width + "," + Screen.height);
+
+		float aspect = Screen.width / Screen.height;
+		if (aspect < 0.5) puzleScaleFactor = 0.4f;
+		PuzzleScale = new Vector3(puzleScaleFactor, puzleScaleFactor, puzleScaleFactor);
+
+		ShuffleComplexity = world.GetShuffleComplexity();
 		// create the games puzzle tiles from the provided image.
 		CreatePuzzleTiles();
 	}

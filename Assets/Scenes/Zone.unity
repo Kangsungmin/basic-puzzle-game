@@ -1233,6 +1233,7 @@ MonoBehaviour:
   fitHeight: 1
   adjustByDPI: 0
   shrinkPortraitUI: 0
+  isBaldIphone: 1
 --- !u!4 &689398825
 Transform:
   m_ObjectHideFlags: 0
@@ -1242,7 +1243,7 @@ Transform:
   m_GameObject: {fileID: 689398821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0015625, y: 0.0015625, z: 0.0015625}
+  m_LocalScale: {x: 0.00135, y: 0.00135, z: 0.00135}
   m_Children:
   - {fileID: 704516959}
   m_Father: {fileID: 0}
@@ -2956,6 +2957,7 @@ MonoBehaviour:
   Width: 3
   shuffleSpeed: 50
   moveSpeed: 20
+  puzleScaleFactor: 0.5
   PuzzleScale: {x: 0.5, y: 0.5, z: 0.5}
   PuzzlePosition: {x: 0, y: 0, z: 0}
   SeperationBetweenTiles: 0.3
