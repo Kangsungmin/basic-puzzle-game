@@ -227,6 +227,7 @@
     <Compile Include="Assets\Script\Util\UnityAdsManager.cs" />
     <Compile Include="Assets\Script\World.cs" />
     <Compile Include="Assets\Script\ksmPopUp.cs" />
+    <Compile Include="Assets\UnityIAPManager.cs" />
     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />

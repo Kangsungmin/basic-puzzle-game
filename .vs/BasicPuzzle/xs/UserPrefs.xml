@@ -1,35 +1,25 @@
 ﻿<Properties StartupConfiguration="{EEB140CB-85DC-D9CC-543A-D2772B1AFCCA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ST_PuzzleDisplay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityIAPManager.cs">
     <Files>
-      <File FileName="Assets/Script/World.cs" Line="490" Column="49" IsPinned="True" />
-      <File FileName="Assets/Script/ST_PuzzleDisplay.cs" Line="75" Column="3" IsPinned="True" />
-      <File FileName="Assets/Script/ST_PuzzleTile.cs" Line="18" Column="38" IsPinned="True" />
-      <File FileName="Assets/Script/PuzzleZone.cs" Line="121" Column="10" />
+      <File FileName="Assets/Script/World.cs" Line="100" Column="12" IsPinned="True" />
+      <File FileName="Assets/Script/ST_PuzzleDisplay.cs" Line="85" Column="83" IsPinned="True" />
+      <File FileName="Assets/Script/ST_PuzzleTile.cs" IsPinned="True" />
+      <File FileName="Assets/Script/PuzzleZone.cs" />
       <File FileName="Assets/Script/UI/PreviewImage.cs" />
       <File FileName="Assets/Script/ksmPopUp.cs" />
-      <File FileName="Assets/Script/ThemeMenu.cs" Line="4" Column="30" />
+      <File FileName="Assets/Script/ThemeMenu.cs" />
       <File FileName="Assets/NGUI/Scripts/Editor/NGUIMenu.cs" />
-      <File FileName="Assets/Script/StageMenu.cs" Line="80" Column="28" />
+      <File FileName="Assets/Script/StageMenu.cs" Line="223" Column="43" />
       <File FileName="Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" />
       <File FileName="Assets/Script/Parameter/Param_Game_Result.cs" />
-      <File FileName="Assets/NGUI/Scripts/UI/UIRoot.cs" Line="180" Column="31" />
+      <File FileName="Assets/NGUI/Scripts/UI/UIRoot.cs" />
+      <File FileName="Assets/Plugins/UnityPurchasing/Editor/IAPButtonEditor.cs" Line="15" Column="36" />
+      <File FileName="Assets/UnityIAPManager.cs" Line="134" Column="60" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BasicPuzzle" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="BasicPuzzle" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bebf64af-b906-4f0c-a66e-5aa4739a9ce6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4c4e3360-7860-4a0b-b38c-7e4c396bb3b6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kangsungmin/Desktop/workspace/unity/BasicPuzzle/Assets/Scripts/ST_PuzzleDisplay.cs" relfile="Assets/Scripts/ST_PuzzleDisplay.cs" line="286" column="2" />

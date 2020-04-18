@@ -12,7 +12,7 @@ public class StageMenu : MonoBehaviour {
     private World world;
     public UILabel m_focusedBestScore;
     public Transform m_difficultyGrid;
-    public GameObject[] m_difficultyIcons;
+    public UISprite[] m_difficultyIcons;
     public GameObject m_uiCostImage;
     public UILabel m_focusedCost;
     public UILabel m_leftMoneyView;
@@ -30,10 +30,10 @@ public class StageMenu : MonoBehaviour {
     void Awake()
     {
         world = (World)FindObjectOfType(typeof(World));
-        m_difficultyIcons = new GameObject[m_difficultyGrid.childCount];
+        m_difficultyIcons = new UISprite[m_difficultyGrid.childCount];
         for(int i=0; i < m_difficultyGrid.childCount; i++)
         {
-            m_difficultyIcons[i] = m_difficultyGrid.GetChild(i).gameObject;
+            m_difficultyIcons[i] = m_difficultyGrid.GetChild(i).GetComponent<UISprite>();
         }
 
         m_audioSource = GetComponent<AudioSource>();
@@ -214,9 +214,9 @@ public class StageMenu : MonoBehaviour {
 
     public void HideAllDifIcons()
     {
-        foreach(GameObject icon in m_difficultyIcons)
+        foreach(UISprite icon in m_difficultyIcons)
         {
-            icon.SetActive(false);
+            icon.enabled = false;
         }
     }
 
@@ -224,7 +224,7 @@ public class StageMenu : MonoBehaviour {
     {
         for(int i = 0; i < amount; i++)
         {
-            m_difficultyIcons[i].SetActive(true);
+            m_difficultyIcons[i].enabled = true;
         }
     }
 
