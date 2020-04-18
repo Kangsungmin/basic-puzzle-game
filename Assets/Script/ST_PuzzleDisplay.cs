@@ -81,7 +81,7 @@ public class ST_PuzzleDisplay : MonoBehaviour
 		Debug.Log("w,h : " + Screen.width + "," + Screen.height);
 
 		float aspect = Screen.width / Screen.height;
-		if (aspect < 0.5) puzleScaleFactor = 0.4f;
+		if (aspect < 0.5) puzleScaleFactor = 0.44f;
 		PuzzleScale = new Vector3(puzleScaleFactor, puzleScaleFactor, puzleScaleFactor);
 
 		ShuffleComplexity = world.GetShuffleComplexity();

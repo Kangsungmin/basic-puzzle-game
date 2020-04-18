@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{EEB140CB-85DC-D9CC-543A-D2772B1AFCCA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityIAPManager.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assets/Script/World.cs" Line="100" Column="12" IsPinned="True" />
-      <File FileName="Assets/Script/ST_PuzzleDisplay.cs" Line="85" Column="83" IsPinned="True" />
+      <File FileName="Assets/Script/ST_PuzzleDisplay.cs" IsPinned="True" />
       <File FileName="Assets/Script/ST_PuzzleTile.cs" IsPinned="True" />
       <File FileName="Assets/Script/PuzzleZone.cs" />
       <File FileName="Assets/Script/UI/PreviewImage.cs" />
       <File FileName="Assets/Script/ksmPopUp.cs" />
       <File FileName="Assets/Script/ThemeMenu.cs" />
       <File FileName="Assets/NGUI/Scripts/Editor/NGUIMenu.cs" />
-      <File FileName="Assets/Script/StageMenu.cs" Line="223" Column="43" />
+      <File FileName="Assets/Script/StageMenu.cs" />
       <File FileName="Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" />
       <File FileName="Assets/Script/Parameter/Param_Game_Result.cs" />
       <File FileName="Assets/NGUI/Scripts/UI/UIRoot.cs" />
-      <File FileName="Assets/Plugins/UnityPurchasing/Editor/IAPButtonEditor.cs" Line="15" Column="36" />
-      <File FileName="Assets/UnityIAPManager.cs" Line="134" Column="60" />
+      <File FileName="Assets/Plugins/UnityPurchasing/Editor/IAPButtonEditor.cs" />
+      <File FileName="Assets/UnityIAPManager.cs" Line="73" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

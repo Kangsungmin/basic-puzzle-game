@@ -616,14 +616,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 750
-  mHeight: 1334
+  mWidth: 2000
+  mHeight: 2000
   mDepth: 7
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.5622189
+  aspectRatio: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -3131,14 +3131,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
   mPivot: 4
-  mWidth: 750
-  mHeight: 1334
+  mWidth: 2000
+  mHeight: 2000
   mDepth: 5
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.5622189
+  aspectRatio: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
