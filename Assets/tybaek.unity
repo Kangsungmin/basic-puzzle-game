@@ -3432,7 +3432,7 @@ PrefabInstance:
     - target: {fileID: 2168551200682816619, guid: 5d6c3ddb7d0e046b38276c9d3d079437,
         type: 3}
       propertyPath: m_name
-      value: dessert0
+      value: sports0
       objectReference: {fileID: 0}
     - target: {fileID: 2168551200682816619, guid: 5d6c3ddb7d0e046b38276c9d3d079437,
         type: 3}
@@ -3578,7 +3578,7 @@ PrefabInstance:
     - target: {fileID: 4971758058216336541, guid: 5d6c3ddb7d0e046b38276c9d3d079437,
         type: 3}
       propertyPath: m_name
-      value: dessert1
+      value: sports1
       objectReference: {fileID: 0}
     - target: {fileID: 4971758058216336541, guid: 5d6c3ddb7d0e046b38276c9d3d079437,
         type: 3}
@@ -5377,7 +5377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aef75603f3ec4ed2ad09e28227faa4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_name: dessert3
+  m_name: sports3
   m_price: 5
   m_costType: 0
   m_tintColor:
@@ -5513,7 +5513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aef75603f3ec4ed2ad09e28227faa4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_name: dessert2
+  m_name: sports2
   m_price: 5
   m_costType: 0
   m_tintColor:
@@ -9058,7 +9058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aef75603f3ec4ed2ad09e28227faa4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_name: dessert4
+  m_name: sports4
   m_price: 20
   m_costType: 0
   m_tintColor:
