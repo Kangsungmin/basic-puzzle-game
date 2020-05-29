@@ -2653,7 +2653,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3006
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -10083,6 +10083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e871fb6349584fdaa40a0779075ec6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIManager: {fileID: 168488863}
 --- !u!4 &1939941093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4458992671783290822, guid: 5d6c3ddb7d0e046b38276c9d3d079437,
@@ -10699,7 +10700,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3006
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0

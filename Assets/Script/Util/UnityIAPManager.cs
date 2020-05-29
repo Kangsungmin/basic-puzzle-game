@@ -5,14 +5,16 @@ using UnityEngine.Purchasing;
 
 public class UnityIAPManager : MonoBehaviour, IStoreListener
 {
+    public GameObject UIManager;
+    
     private static IStoreController storeController;
     private static IExtensionProvider extensionProvider;
 
     #region 상품ID
     // 상품ID는 구글 개발자 콘솔에 등록한 상품ID와 동일하게 해주세요.
-    public const string productId1 = "GOLDPUZZLE_5";
-    public const string productId2 = "GOLDPUZZLE_20";
-    public const string productId3 = "GOLDPUZZLE_50";
+    public const string productId1 = "5_gold_puzzle";
+    public const string productId2 = "20_gold_puzzle ";
+    public const string productId3 = "50_gold_puzzle ";
     public const string productId4 = "REMOVEAD";
     //public const string productId5 = "";
     #endregion
@@ -138,30 +140,19 @@ public class UnityIAPManager : MonoBehaviour, IStoreListener
         switch (args.purchasedProduct.definition.id)
         {
             case productId1:
-
-                // ex) gem 10개 지급
-
+                World.GetUserSingleTone().m_crystalCount += 5;
                 break;
-
             case productId2:
-
-                // ex) gem 50개 지급
-
+                World.GetUserSingleTone().m_crystalCount += 20;
                 break;
-
             case productId3:
-
-                // ex) gem 100개 지급
-
+                World.GetUserSingleTone().m_crystalCount += 50;
                 break;
-
             case productId4:
-
-                // ex) gem 300개 지급
 
                 break;
         }
-
+        UIManager.SendMessage("UpdateLeftCrystal", World.GetUserSingleTone().m_crystalCount);
         return PurchaseProcessingResult.Complete;
     }
 
